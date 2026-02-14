@@ -2,6 +2,8 @@
 
 This is the mapping of the [apc-mini-2-decks.midi.xml](apc-mini-2-decks.midi.xml) config:
 
+![](apc-mini/mapping.png)
+
 | pads        |                 |                  |                  |
 |-------------|-----------------|------------------|------------------|
 | beatloop    | loop size halve | loop size double | temp beatloop    |

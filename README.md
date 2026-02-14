@@ -1,7 +1,9 @@
 # [Mixxx](https://www.mixxx.org/) controller mappings (and stuff) for Akai products (I own and use)
 
 This is my collection of mappings for Mixxx for Akai products. Currently, I have mappings for the **APC mini mk2** and
-the **MIDI mix**.
+the **MIDI mix**. I use the **APC** most:
+
+![](apc-mini/mapping.png)
 
 ## Documentation
 
