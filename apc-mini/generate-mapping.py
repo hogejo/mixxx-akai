@@ -208,20 +208,20 @@ for deck, deck_offset in decks.items():
         push=True
     )
     control(
-        group=f"[Channel{deck}]", key="beatlooproll_activate",
-        description=f"Deck {deck} / temporary beatloop",
-        status=0x90, midino=pad_rows["beatloop"] + 9 + (4 * deck_offset),
-        push=True
-    )
-    control(
-        group=f"[Channel{deck}]", key="loop_havle",
+        group=f"[Channel{deck}]", key="loop_halve",
         description=f"Deck {deck} / halve beatloop size",
-        status=0x90, midino=pad_rows["beatloop"] + 10 + (4 * deck_offset),
+        status=0x90, midino=pad_rows["beatloop"] + 9 + (4 * deck_offset),
         push=True
     )
     control(
         group=f"[Channel{deck}]", key="loop_double",
         description=f"Deck {deck} / double beatloop size",
+        status=0x90, midino=pad_rows["beatloop"] + 10 + (4 * deck_offset),
+        push=True
+    )
+    control(
+        group=f"[Channel{deck}]", key="beatlooproll_activate",
+        description=f"Deck {deck} / temporary beatloop",
         status=0x90, midino=pad_rows["beatloop"] + 11 + (4 * deck_offset),
         push=True
     )
@@ -390,19 +390,19 @@ for deck, deck_offset in decks.items():
         on=colours["beatloop"],
     )
     output(
-        group=f"[Channel{deck}]", key="beatlooproll_activate",
-        status=0x96, midino=pad_rows["beatloop"] + 9 + (4 * deck_offset),
-        on=colours["beatloop"],
-    )
-    output(
         group=f"[Channel{deck}]", key="loop_halve",
-        status=0x96, midino=pad_rows["beatloop"] + 10 + (4 * deck_offset),
+        status=0x96, midino=pad_rows["beatloop"] + 9 + (4 * deck_offset),
         on=colours["press"],
     )
     output(
         group=f"[Channel{deck}]", key="loop_double",
-        status=0x96, midino=pad_rows["beatloop"] + 11 + (4 * deck_offset),
+        status=0x96, midino=pad_rows["beatloop"] + 10 + (4 * deck_offset),
         on=colours["press"],
+    )
+    output(
+        group=f"[Channel{deck}]", key="beatlooproll_activate",
+        status=0x96, midino=pad_rows["beatloop"] + 11 + (4 * deck_offset),
+        on=colours["beatloop"],
     )
     output(
         group=f"[Channel{deck}]", key="reloop_toggle",

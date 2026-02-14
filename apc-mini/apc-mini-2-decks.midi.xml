@@ -50,40 +50,20 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>beatlooproll_activate</key>
-                <description>Deck 1 / temporary beatloop</description>
-                <status>0x90</status>
-                <midino>0x39</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>beatlooproll_activate</key>
-                <description>Deck 1 / temporary beatloop (released)</description>
-                <status>0x80</status>
-                <midino>0x39</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>loop_havle</key>
+                <key>loop_halve</key>
                 <description>Deck 1 / halve beatloop size</description>
                 <status>0x90</status>
-                <midino>0x3a</midino>
+                <midino>0x39</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>loop_havle</key>
+                <key>loop_halve</key>
                 <description>Deck 1 / halve beatloop size (released)</description>
                 <status>0x80</status>
-                <midino>0x3a</midino>
+                <midino>0x39</midino>
                 <options>
                     <normal/>
                 </options>
@@ -93,7 +73,7 @@
                 <key>loop_double</key>
                 <description>Deck 1 / double beatloop size</description>
                 <status>0x90</status>
-                <midino>0x3b</midino>
+                <midino>0x3a</midino>
                 <options>
                     <normal/>
                 </options>
@@ -102,6 +82,26 @@
                 <group>[Channel1]</group>
                 <key>loop_double</key>
                 <description>Deck 1 / double beatloop size (released)</description>
+                <status>0x80</status>
+                <midino>0x3a</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatlooproll_activate</key>
+                <description>Deck 1 / temporary beatloop</description>
+                <status>0x90</status>
+                <midino>0x3b</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatlooproll_activate</key>
+                <description>Deck 1 / temporary beatloop (released)</description>
                 <status>0x80</status>
                 <midino>0x3b</midino>
                 <options>
@@ -732,40 +732,20 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>beatlooproll_activate</key>
-                <description>Deck 2 / temporary beatloop</description>
-                <status>0x90</status>
-                <midino>0x3d</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>beatlooproll_activate</key>
-                <description>Deck 2 / temporary beatloop (released)</description>
-                <status>0x80</status>
-                <midino>0x3d</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>loop_havle</key>
+                <key>loop_halve</key>
                 <description>Deck 2 / halve beatloop size</description>
                 <status>0x90</status>
-                <midino>0x3e</midino>
+                <midino>0x3d</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>loop_havle</key>
+                <key>loop_halve</key>
                 <description>Deck 2 / halve beatloop size (released)</description>
                 <status>0x80</status>
-                <midino>0x3e</midino>
+                <midino>0x3d</midino>
                 <options>
                     <normal/>
                 </options>
@@ -775,7 +755,7 @@
                 <key>loop_double</key>
                 <description>Deck 2 / double beatloop size</description>
                 <status>0x90</status>
-                <midino>0x3f</midino>
+                <midino>0x3e</midino>
                 <options>
                     <normal/>
                 </options>
@@ -784,6 +764,26 @@
                 <group>[Channel2]</group>
                 <key>loop_double</key>
                 <description>Deck 2 / double beatloop size (released)</description>
+                <status>0x80</status>
+                <midino>0x3e</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatlooproll_activate</key>
+                <description>Deck 2 / temporary beatloop</description>
+                <status>0x90</status>
+                <midino>0x3f</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatlooproll_activate</key>
+                <description>Deck 2 / temporary beatloop (released)</description>
                 <status>0x80</status>
                 <midino>0x3f</midino>
                 <options>
@@ -1406,19 +1406,9 @@
             </output>
             <output>
                 <group>[Channel1]</group>
-                <key>beatlooproll_activate</key>
-                <status>0x96</status>
-                <midino>0x39</midino>
-                <on>0x54</on>
-                <off>0x0</off>
-                <minimum>1</minimum>
-                <maximum>1000</maximum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
                 <key>loop_halve</key>
                 <status>0x96</status>
-                <midino>0x3a</midino>
+                <midino>0x39</midino>
                 <on>0x2</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
@@ -1428,8 +1418,18 @@
                 <group>[Channel1]</group>
                 <key>loop_double</key>
                 <status>0x96</status>
-                <midino>0x3b</midino>
+                <midino>0x3a</midino>
                 <on>0x2</on>
+                <off>0x0</off>
+                <minimum>1</minimum>
+                <maximum>1000</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>beatlooproll_activate</key>
+                <status>0x96</status>
+                <midino>0x3b</midino>
+                <on>0x54</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
                 <maximum>1000</maximum>
@@ -1687,19 +1687,9 @@
             </output>
             <output>
                 <group>[Channel2]</group>
-                <key>beatlooproll_activate</key>
-                <status>0x96</status>
-                <midino>0x3d</midino>
-                <on>0x54</on>
-                <off>0x0</off>
-                <minimum>1</minimum>
-                <maximum>1000</maximum>
-            </output>
-            <output>
-                <group>[Channel2]</group>
                 <key>loop_halve</key>
                 <status>0x96</status>
-                <midino>0x3e</midino>
+                <midino>0x3d</midino>
                 <on>0x2</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
@@ -1709,8 +1699,18 @@
                 <group>[Channel2]</group>
                 <key>loop_double</key>
                 <status>0x96</status>
-                <midino>0x3f</midino>
+                <midino>0x3e</midino>
                 <on>0x2</on>
+                <off>0x0</off>
+                <minimum>1</minimum>
+                <maximum>1000</maximum>
+            </output>
+            <output>
+                <group>[Channel2]</group>
+                <key>beatlooproll_activate</key>
+                <status>0x96</status>
+                <midino>0x3f</midino>
+                <on>0x54</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
                 <maximum>1000</maximum>
