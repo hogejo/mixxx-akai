@@ -1,0 +1,1 @@
+/usr/share/mixxx/controllers/engine-api.d.ts

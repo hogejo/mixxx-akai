@@ -1,0 +1,1 @@
+/usr/share/mixxx/controllers/midi-controller-api.d.ts

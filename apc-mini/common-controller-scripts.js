@@ -1,0 +1,1 @@
+/usr/share/mixxx/controllers/common-controller-scripts.js

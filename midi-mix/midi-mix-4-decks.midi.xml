@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset mixxxVersion="" schemaVersion="1">
+    <info>
+        <name>Akai Pro MIDI Mix - 4 Decks</name>
+        <author>hogejo</author>
+        <description>Mapping for Akai Pro MIDI Mix with four decks, then three filter controls each.</description>
+    </info>
+    <controller id="">
+        <scriptfiles/>
+        <controls>
+            <!-- 4 DECKS -->
+            <!-- Deck 3 Controls -->
+            <!-- Deck 3 EQ -->
+            <control>
+                <group>[EqualizerRack1_[Channel3]_Effect1]</group>
+                <key>parameter3</key>
+                <description>Deck 3 / EQ / High</description>
+                <status>0xB0</status>
+                <midino>0x10</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel3]_Effect1]</group>
+                <key>parameter2</key>
+                <description>Deck 3 / EQ / Med</description>
+                <status>0xB0</status>
+                <midino>0x11</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel3]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Deck 3 / EQ / Low</description>
+                <status>0xB0</status>
+                <midino>0x12</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 3 headphone -->
+            <control>
+                <group>[Channel3]</group>
+                <key>pfl</key>
+                <description>Deck 3 / headphone</description>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 3 play -->
+            <control>
+                <group>[Channel3]</group>
+                <key>play</key>
+                <description>Deck 3 / play</description>
+                <status>0x90</status>
+                <midino>0x03</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 3 volume -->
+            <control>
+                <group>[Channel3]</group>
+                <key>volume</key>
+                <description>Deck 3 / volume</description>
+                <status>0xB0</status>
+                <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 1 Controls -->
+            <!-- Deck 1 EQ -->
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter3</key>
+                <description>Deck 1 / EQ / High</description>
+                <status>0xB0</status>
+                <midino>0x14</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter2</key>
+                <description>Deck 1 / EQ / Med</description>
+                <status>0xB0</status>
+                <midino>0x15</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Deck 1 / EQ / Low</description>
+                <status>0xB0</status>
+                <midino>0x16</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 1 headphone -->
+            <control>
+                <group>[Channel1]</group>
+                <key>pfl</key>
+                <description>Deck 1 / headphone</description>
+                <status>0x90</status>
+                <midino>0x04</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 1 play -->
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>Deck 1 / play</description>
+                <status>0x90</status>
+                <midino>0x06</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 1 volume -->
+            <control>
+                <group>[Channel1]</group>
+                <key>volume</key>
+                <description>Deck 1 / volume</description>
+                <status>0xB0</status>
+                <midino>0x17</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 2 Controls -->
+            <!-- Deck 2 EQ -->
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter3</key>
+                <description>Deck 2 / EQ / High</description>
+                <status>0xB0</status>
+                <midino>0x18</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter2</key>
+                <description>Deck 2 / EQ / Med</description>
+                <status>0xB0</status>
+                <midino>0x19</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Deck 2 / EQ / Low</description>
+                <status>0xB0</status>
+                <midino>0x1A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 2 headphone -->
+            <control>
+                <group>[Channel2]</group>
+                <key>pfl</key>
+                <description>Deck 2 / headphone</description>
+                <status>0x90</status>
+                <midino>0x07</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 2 play -->
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>Deck 2 / play</description>
+                <status>0x90</status>
+                <midino>0x09</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 2 volume -->
+            <control>
+                <group>[Channel2]</group>
+                <key>volume</key>
+                <description>Deck 2 / volume</description>
+                <status>0xB0</status>
+                <midino>0x1B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 4 Controls -->
+            <!-- Deck 4 EQ -->
+            <control>
+                <group>[EqualizerRack1_[Channel4]_Effect1]</group>
+                <key>parameter3</key>
+                <description>Deck 4 / EQ / High</description>
+                <status>0xB0</status>
+                <midino>0x1C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel4]_Effect1]</group>
+                <key>parameter2</key>
+                <description>Deck 4 / EQ / Med</description>
+                <status>0xB0</status>
+                <midino>0x1D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel4]_Effect1]</group>
+                <key>parameter1</key>
+                <description>Deck 4 / EQ / Low</description>
+                <status>0xB0</status>
+                <midino>0x1E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 4 headphone -->
+            <control>
+                <group>[Channel4]</group>
+                <key>pfl</key>
+                <description>Deck 4 / headphone</description>
+                <status>0x90</status>
+                <midino>0x0A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 4 play -->
+            <control>
+                <group>[Channel4]</group>
+                <key>play</key>
+                <description>Deck 4 / play</description>
+                <status>0x90</status>
+                <midino>0x0C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Deck 4 volume -->
+            <control>
+                <group>[Channel4]</group>
+                <key>volume</key>
+                <description>Deck 4 / volume</description>
+                <status>0xB0</status>
+                <midino>0x1F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- 4 FX UNITS -->
+            <!-- FX 1 -->
+            <control>
+                <group>[EffectRack1_EffectUnit1_Effect1]</group>
+                <key>meta</key>
+                <description>FX 1 / Effect 1 / meta</description>
+                <status>0xB0</status>
+                <midino>0x2E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1_Effect2]</group>
+                <key>meta</key>
+                <description>FX 1 / Effect 2 / meta</description>
+                <status>0xB0</status>
+                <midino>0x2F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1_Effect3]</group>
+                <key>meta</key>
+                <description>FX 1 / Effect 3 / meta</description>
+                <status>0xB0</status>
+                <midino>0x30</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>group_[Headphone]_enable</key>
+                <description>FX 1 / headphone</description>
+                <status>0x90</status>
+                <midino>0x0D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>mix</key>
+                <description>FX 1 / mix</description>
+                <status>0xB0</status>
+                <midino>0x31</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- FX 2 -->
+            <control>
+                <group>[EffectRack1_EffectUnit2_Effect1]</group>
+                <key>meta</key>
+                <description>FX 2 / Effect 1 / meta</description>
+                <status>0xB0</status>
+                <midino>0x32</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2_Effect2]</group>
+                <key>meta</key>
+                <description>FX 2 / Effect 2 / meta</description>
+                <status>0xB0</status>
+                <midino>0x33</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2_Effect3]</group>
+                <key>meta</key>
+                <description>FX 2 / Effect 3 / meta</description>
+                <status>0xB0</status>
+                <midino>0x34</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>group_[Headphone]_enable</key>
+                <description>FX 2 / headphone</description>
+                <status>0x90</status>
+                <midino>0x10</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>mix</key>
+                <description>FX 2 / mix</description>
+                <status>0xB0</status>
+                <midino>0x35</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- FX 3 -->
+            <control>
+                <group>[EffectRack1_EffectUnit3_Effect1]</group>
+                <key>meta</key>
+                <description>FX 3 / Effect 1 / meta</description>
+                <status>0xB0</status>
+                <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit3_Effect2]</group>
+                <key>meta</key>
+                <description>FX 3 / Effect 2 / meta</description>
+                <status>0xB0</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit3_Effect3]</group>
+                <key>meta</key>
+                <description>FX 3 / Effect 3 / meta</description>
+                <status>0xB0</status>
+                <midino>0x38</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit3]</group>
+                <key>group_[Headphone]_enable</key>
+                <description>FX 3 / headphone</description>
+                <status>0x90</status>
+                <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit3]</group>
+                <key>mix</key>
+                <description>FX 3 / mix</description>
+                <status>0xB0</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- FX 4 -->
+            <control>
+                <group>[EffectRack1_EffectUnit4_Effect1]</group>
+                <key>meta</key>
+                <description>FX 4 / Effect 1 / meta</description>
+                <status>0xB0</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit4_Effect2]</group>
+                <key>meta</key>
+                <description>FX 4 / Effect 2 / meta</description>
+                <status>0xB0</status>
+                <midino>0x3B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit4_Effect3]</group>
+                <key>meta</key>
+                <description>FX 4 / Effect 3 / meta</description>
+                <status>0xB0</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit4]</group>
+                <key>group_[Headphone]_enable</key>
+                <description>FX 4 / headphone</description>
+                <status>0x90</status>
+                <midino>0x16</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit4]</group>
+                <key>mix</key>
+                <description>FX 4 / mix</description>
+                <status>0xB0</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!-- Master -->
+            <control>
+                <group>[Master]</group>
+                <key>gain</key>
+                <description>Master / gain</description>
+                <status>0xB0</status>
+                <midino>0x3E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs>
+            <!-- 4 DECKS -->
+            <!-- Deck 3 Outputs -->
+            <!-- Deck 3 headphone -->
+            <output>
+                <group>[Channel3]</group>
+                <key>pfl</key>
+                <status>0x90</status>
+                <midino>0x01</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 3 play -->
+            <output>
+                <group>[Channel3]</group>
+                <key>play</key>
+                <status>0x90</status>
+                <midino>0x03</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 1 Outputs -->
+            <!-- Deck 1 headphone -->
+            <output>
+                <group>[Channel1]</group>
+                <key>pfl</key>
+                <status>0x90</status>
+                <midino>0x04</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 1 play -->
+            <output>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <status>0x90</status>
+                <midino>0x06</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 2 Outputs -->
+            <!-- Deck 2 headphone -->
+            <output>
+                <group>[Channel2]</group>
+                <key>pfl</key>
+                <status>0x90</status>
+                <midino>0x07</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 2 play -->
+            <output>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <status>0x90</status>
+                <midino>0x09</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 4 Outputs -->
+            <!-- Deck 4 headphone -->
+            <output>
+                <group>[Channel4]</group>
+                <key>pfl</key>
+                <status>0x90</status>
+                <midino>0x0A</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- Deck 4 play -->
+            <output>
+                <group>[Channel4]</group>
+                <key>play</key>
+                <status>0x90</status>
+                <midino>0x0C</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- FX outputs -->
+            <!-- FX 1 headphone -->
+            <output>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>group_[Headphone]_enable</key>
+                <status>0x90</status>
+                <midino>0x0D</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- FX 2 headphone -->
+            <output>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>group_[Headphone]_enable</key>
+                <status>0x90</status>
+                <midino>0x10</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- FX 3 headphone -->
+            <output>
+                <group>[EffectRack1_EffectUnit3]</group>
+                <key>group_[Headphone]_enable</key>
+                <status>0x90</status>
+                <midino>0x13</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+            <!-- FX 4 headphone -->
+            <output>
+                <group>[EffectRack1_EffectUnit4]</group>
+                <key>group_[Headphone]_enable</key>
+                <status>0x90</status>
+                <midino>0x16</midino>
+                <on>0x00</on>
+                <off>0x7F</off>
+                <maximum>0</maximum>
+            </output>
+        </outputs>
+    </controller>
+</MixxxControllerPreset>
