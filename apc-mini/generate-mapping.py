@@ -250,15 +250,14 @@ for deck, deck_offset in decks.items():
         push=True
     )
     # pads: sync
-    # TODO: shift + speed = rate_perm_x_small in JS
     control(
-        group=f"[Channel{deck}]", key="rate_perm_down",
+        group=f"[Channel{deck}]", key="rate_perm_down_small",
         description=f"Deck {deck} / decrease BPM",
         status=0x90, midino=pad_rows["sync"] + 0 + (4 * deck_offset),
         push=True
     )
     control(
-        group=f"[Channel{deck}]", key="rate_perm_up",
+        group=f"[Channel{deck}]", key="rate_perm_up_small",
         description=f"Deck {deck} / increase BPM",
         status=0x90, midino=pad_rows["sync"] + 1 + (4 * deck_offset),
         push=True
@@ -427,12 +426,12 @@ for deck, deck_offset in decks.items():
     )
     # rate, sync
     output(
-        group=f"[Channel{deck}]", key="rate_perm_down",
+        group=f"[Channel{deck}]", key="rate_perm_down_small",
         status=0x96, midino=pad_rows["sync"] + 0 + (4 * deck_offset),
         on=colours["back_press"], off=colours["back"],
     )
     output(
-        group=f"[Channel{deck}]", key="rate_perm_up",
+        group=f"[Channel{deck}]", key="rate_perm_up_small",
         status=0x96, midino=pad_rows["sync"] + 1 + (4 * deck_offset),
         on=colours["forward_press"], off=colours["forward"],
     )

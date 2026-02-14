@@ -190,7 +190,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>rate_perm_down</key>
+                <key>rate_perm_down_small</key>
                 <description>Deck 1 / decrease BPM</description>
                 <status>0x90</status>
                 <midino>0x28</midino>
@@ -200,7 +200,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>rate_perm_down</key>
+                <key>rate_perm_down_small</key>
                 <description>Deck 1 / decrease BPM (released)</description>
                 <status>0x80</status>
                 <midino>0x28</midino>
@@ -210,7 +210,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>rate_perm_up</key>
+                <key>rate_perm_up_small</key>
                 <description>Deck 1 / increase BPM</description>
                 <status>0x90</status>
                 <midino>0x29</midino>
@@ -220,7 +220,7 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>rate_perm_up</key>
+                <key>rate_perm_up_small</key>
                 <description>Deck 1 / increase BPM (released)</description>
                 <status>0x80</status>
                 <midino>0x29</midino>
@@ -872,7 +872,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>rate_perm_down</key>
+                <key>rate_perm_down_small</key>
                 <description>Deck 2 / decrease BPM</description>
                 <status>0x90</status>
                 <midino>0x2c</midino>
@@ -882,7 +882,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>rate_perm_down</key>
+                <key>rate_perm_down_small</key>
                 <description>Deck 2 / decrease BPM (released)</description>
                 <status>0x80</status>
                 <midino>0x2c</midino>
@@ -892,7 +892,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>rate_perm_up</key>
+                <key>rate_perm_up_small</key>
                 <description>Deck 2 / increase BPM</description>
                 <status>0x90</status>
                 <midino>0x2d</midino>
@@ -902,7 +902,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>rate_perm_up</key>
+                <key>rate_perm_up_small</key>
                 <description>Deck 2 / increase BPM (released)</description>
                 <status>0x80</status>
                 <midino>0x2d</midino>
@@ -1476,7 +1476,7 @@
             </output>
             <output>
                 <group>[Channel1]</group>
-                <key>rate_perm_down</key>
+                <key>rate_perm_down_small</key>
                 <status>0x96</status>
                 <midino>0x28</midino>
                 <on>0x5</on>
@@ -1486,7 +1486,7 @@
             </output>
             <output>
                 <group>[Channel1]</group>
-                <key>rate_perm_up</key>
+                <key>rate_perm_up_small</key>
                 <status>0x96</status>
                 <midino>0x29</midino>
                 <on>0x57</on>
@@ -1757,7 +1757,7 @@
             </output>
             <output>
                 <group>[Channel2]</group>
-                <key>rate_perm_down</key>
+                <key>rate_perm_down_small</key>
                 <status>0x96</status>
                 <midino>0x2c</midino>
                 <on>0x5</on>
@@ -1767,7 +1767,7 @@
             </output>
             <output>
                 <group>[Channel2]</group>
-                <key>rate_perm_up</key>
+                <key>rate_perm_up_small</key>
                 <status>0x96</status>
                 <midino>0x2d</midino>
                 <on>0x57</on>
