@@ -458,12 +458,12 @@ for deck, deck_offset in decks.items():
     )
     output(
         group=f"[Channel{deck}]", key="beatjump_size_halve",
-        status=0x96, midino=pad_rows["beatloop"] + 2 + (4 * deck_offset),
+        status=0x96, midino=pad_rows["beatjump"] + 2 + (4 * deck_offset),
         on=colours["press"],
     )
     output(
         group=f"[Channel{deck}]", key="beatjump_size_double",
-        status=0x96, midino=pad_rows["beatloop"] + 3 + (4 * deck_offset),
+        status=0x96, midino=pad_rows["beatjump"] + 3 + (4 * deck_offset),
         on=colours["press"],
     )
     # intro/outro

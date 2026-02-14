@@ -1538,7 +1538,7 @@
                 <group>[Channel1]</group>
                 <key>beatjump_size_halve</key>
                 <status>0x96</status>
-                <midino>0x32</midino>
+                <midino>0x22</midino>
                 <on>0x2</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
@@ -1548,7 +1548,7 @@
                 <group>[Channel1]</group>
                 <key>beatjump_size_double</key>
                 <status>0x96</status>
-                <midino>0x33</midino>
+                <midino>0x23</midino>
                 <on>0x2</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
@@ -1819,7 +1819,7 @@
                 <group>[Channel2]</group>
                 <key>beatjump_size_halve</key>
                 <status>0x96</status>
-                <midino>0x36</midino>
+                <midino>0x26</midino>
                 <on>0x2</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
@@ -1829,7 +1829,7 @@
                 <group>[Channel2]</group>
                 <key>beatjump_size_double</key>
                 <status>0x96</status>
-                <midino>0x37</midino>
+                <midino>0x27</midino>
                 <on>0x2</on>
                 <off>0x0</off>
                 <minimum>1</minimum>
