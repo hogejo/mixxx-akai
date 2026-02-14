@@ -252,10 +252,17 @@ for (let deck of decks) {
         let hotcueOffset = hotcues[hotcue];
         engine.makeConnection(`[Channel${deck}]`, `hotcue_${hotcue}_color`, (value, _group, _control) => {
             let led = padRows.hotcue + hotcueOffset + (4 * deckOffset)
-            if (value === -1) {
+            if (value !== -1) {
+                APCMini.ledOn(led, APCMini.ColorMapper.getValueForNearestColor(value));
+            }
+        })
+        engine.makeConnection(`[Channel${deck}]`, `hotcue_${hotcue}_status`, (value, _group, _control) => {
+            let led = padRows.hotcue + hotcueOffset + (4 * deckOffset)
+            if (value === 0) {
                 APCMini.ledOff(led)
             } else {
-                APCMini.ledOn(led, APCMini.ColorMapper.getValueForNearestColor(value));
+                let colour = engine.getParameter(`[Channel${deck}]`, `hotcue_${hotcue}_color`);
+                APCMini.ledOn(led, APCMini.ColorMapper.getValueForNearestColor(colour));
             }
         })
     }
